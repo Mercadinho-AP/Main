@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Login </title>
+    <link rel="stylesheet" href="_css/styleLogin.css">
+</head>
+<body>
+    <main class="container">
+        <center><img height="150" width="290" src="_img/logo_verde.png"> </center>
+        <form action="_php/login.php" method="POST">
+            <div class="input-field">
+                <input type="email" name="username" id="username"
+                    placeholder="Insira seu e-mail" required>
+                <div class="underline"></div>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" id="password"
+                    placeholder="Insira sua senha" required>
+                <div class="underline"></div>
+            </div>
+            <a href="URL">Esqueceu a senha?</a>
+            <input type="submit" value="Entrar" name="buttonLogar">
+        </form>
+    </main>
+
+</body>
+</html>
